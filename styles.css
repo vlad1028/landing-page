@@ -38,6 +38,11 @@ a {
     gap: 16px;
 }
 
+.header>.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
 .header>ul {
     display: flex;
     gap: 16px;
@@ -87,4 +92,44 @@ a {
 
 .main-content {
     flex: 1;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info>h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.card {
+    margin: 0;
+    max-width: 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card>img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 16px;
+    border: 2px solid #3882F6;
+}
+
+.card>figcaption {
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: center;
 }
